@@ -13,7 +13,14 @@ public class gyro_rotation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(Input.gyro.attitude);
-        transform.rotation = Input.gyro.attitude;
+        
+        Quaternion phoneRotation = new Quaternion();
+        phoneRotation = Input.gyro.attitude;
+
+        phoneRotation.Set(phoneRotation[0], phoneRotation[1], phoneRotation[2], phoneRotation[3]);
+
+        transform.rotation = phoneRotation;
+        Debug.Log(phoneRotation);
+
     }
 }
