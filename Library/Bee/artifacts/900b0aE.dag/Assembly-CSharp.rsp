@@ -355,6 +355,10 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/gyro_rotation.cs"
+"Assets/Object_Spawning.cs"
+"Assets/SceneLoader.cs"
+"Assets/ship_collision.cs"
+"Assets/ship_movement.cs"
 -langversion:9.0
 
 /deterministic
